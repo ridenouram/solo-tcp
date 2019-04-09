@@ -12,5 +12,6 @@ rs.on('data', data => {
 });
 
 rs.on('end', () => {
+    ws.end();
     console.log('complete');
 });
