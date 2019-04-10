@@ -1,3 +1,5 @@
 describe('test for passing travis', () => {
-    expect(true).toEqual(true);
+    it('test', () => {
+        expect(true).toEqual(true);
+    });
 });
